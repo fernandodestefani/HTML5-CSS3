@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px (uma das principais), pt, pc
+
+            Medidas relativas
+            em (principal - proporção do tamanho padrão), ex, rem, vm, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* negrito
+            lighter normal bold bolder 
+            variacao de peso numerica 100 a 900 */
+            font-style: normal;
+            /* itálico */
+        }
+        
+        h1, h2 {font: italic bolder 2em 'Times New Roman', serif;
+                text-decoration: underline;
+                /*shorthand
+                font: italic border 3em 'Times New Roman', serif;
+                */
+
+        }
+        
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rem quasi doloremque iure commodi magnam aliquid est beatae. Dolores nesciunt eveniet consequuntur debitis doloremque itaque hic eligendi facilis quae error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi praesentium asperiores facilis beatae natus, magni, fugiat dignissimos perspiciatis quam animi. Recusandae illum id dolores delectus ipsum quas sapiente nam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quia. Dolores aperiam quis voluptate iste at tenetur labore sequi porro nesciunt! Laborum laboriosam inventore labore dolorum corrupti, eos aspernatur animi!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores eos quibusdam ut, quae rem corrupti eligendi pariatur. Unde dolorem ipsum sunt laudantium, dignissimos non consequuntur possimus quasi incidunt hic.</p>
+</body>
+</html>
